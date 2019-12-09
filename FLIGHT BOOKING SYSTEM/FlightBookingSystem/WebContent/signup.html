@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <title>Signup</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/validation.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/signup.css"></link>
+  
+</head>
+
+
+<body>
+    <div class="container" style="padding-left: 175px;">
+        <div class="row">
+			<div class="col-md-50 mx-auto">
+			<div>
+				<div class="myform form ">
+					 <div class="logo mb-3">
+						 <div class="col-md-12 text-center">
+							<h1>Signup</h1>
+						 </div>
+					</div>
+                   <form action="SignupServlet" method="get" name="signup" onsubmit="return validatepass();"> 
+                           <div class="form-group">
+                              <label for="exampleInputEmail1">First Name</label>
+                              <input type="text"  name="first_name" class="form-control" id="firstname" aria-describedby="emailHelp" placeholder="Enter Firstname" required>
+                           </div>
+                           <div class="form-group">
+                              <label>Last Name</label>
+                              <input type="text"  name="last_name" class="form-control" id="lastname" aria-describedby="emailHelp" placeholder="Enter Lastname" required>
+                           </div>
+                           <div class="form-group">
+                              <label>Email address</label>
+                              <input type="email" name="email"  class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email" required>
+                           </div>
+                           <div class="form-group">
+                              <label>Password</label>
+                              <input type="password" name="signup_password" id="signup_password"  class="form-control" aria-describedby="emailHelp" placeholder="Enter Password" required>
+							  
+                           </div>
+						   
+						   <div class="form-group">
+                              <label>Confirm Password</label>
+                              <input type="password" name="signup_password1" id="signup_password1"  class="form-control" aria-describedby="emailHelp" placeholder="reEnter Password" required>
+                           </div>
+                           
+						   <div class="col-md-12 text-center ">
+                              <button type="submit" class=" btn btn-block mybtn btn-success tx-tfm">signup</button>
+                           </div>
+						   <br/>
+						   <br/>
+						   <br/>
+                           <div class="col-md-12 ">
+                              <div class="form-group">
+                                 <p class="text-center"><a href="login.html">Already have an account?</a></p>
+                              </div>
+                           </div>
+						   
+	                      
+         
+                        </form>
+                 
+				</div>
+			</div>
+			  
+		</div>
+      </div>       
+</body>
+</html>

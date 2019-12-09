@@ -1,0 +1,170 @@
+/*
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+*/
+ /* reset */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+ol,ul{list-style:none;margin:0;padding:0;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+/* start editing from here */
+a{text-decoration:none;}
+.txt-rt{text-align:right;}/* text align right */
+.txt-lt{text-align:left;}/* text align left */
+.txt-center{text-align:center;}/* text align center */
+.float-rt{float:right;}/* float right */
+.float-lt{float:left;}/* float left */
+.clear{clear:both;}/* clear float */
+.pos-relative{position:relative;}/* Position Relative */
+.pos-absolute{position:absolute;}/* Position Absolute */
+.vertical-base{	vertical-align:baseline;}/* vertical align baseline */
+.vertical-top{	vertical-align:top;}/* vertical align top */
+.underline{	padding-bottom:5px;	border-bottom: 1px solid #eee; margin:0 0 20px 0;}/* Add 5px bottom padding and a underline */
+nav.vertical ul li{	display:block;}/* vertical menu */
+nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
+img{max-width:100%;}
+/*end reset*/
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size:100%;
+	background: url(https://www.google.com/imgres?imgurl=https%3A%2F%2Fkinsta.com%2Fwp-content%2Fuploads%2F2017%2F04%2Fchange-wordpress-url-1.png&imgrefurl=https%3A%2F%2Fkinsta.com%2Fknowledgebase%2Fchange-wordpress-url%2F&docid=OCe4FVDA_ncvhM&tbnid=BufajIc7c3spKM%3A&vet=10ahUKEwjYloWI7ZHmAhXfyzgGHSNeDmUQMwh1KAAwAA..i&w=1460&h=730&bih=603&biw=1229&q=image%20url&ved=0ahUKEwjYloWI7ZHmAhXfyzgGHSNeDmUQMwh1KAAwAA&iact=mrc&uact=8) no-repeat;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+.buttons {
+	width: 37%;
+	margin: 0px auto;
+	padding-top: 17%;
+}
+.span2 {
+	  width: 41%;
+	  float:left;
+	  margin-top: 15%;
+}
+.span2 i {
+	position:relative;
+	border-left:solid 1px #C64442;
+	font-size: 1.1em;
+	color: #fff;
+	background:#DF5553;
+	padding: 15px 76px;
+	border-radius: 5px 0 0 5px;
+	-moz-border-radius: 5px 0 0 5px;
+	-o-border-radius: 5px 0 0 5px;
+	-webkit-border-radius: 5px 0 0 5px;
+	-webkit-box-shadow: inset 0px 1px 0px #DF5553, 0px 5px 0px 0px #C64442, 2px 10px 5px #363747;
+	-moz-box-shadow: inset 0px 1px 0px #DF5553, 0px 5px 0px 0px #C64442, 2px 10px 5px #363747;
+	-o-box-shadow: inset 0px 1px 0px #DF5553, 0px 5px 0px 0px #C64442, 2px 10px 5px #363747;
+	box-shadow: inset 0px 1px 0px #DF5553, 0px 5px 0px 0px #C64442, 2px 10px 5px #363747;
+}
+.span2 i:active {
+	top:3px;
+-webkit-box-shadow: inset 0px 1px 0px #DF5553, 0px 2px 0px 0px #C64442, 2px 10px 5px #363747;
+	-moz-box-shadow: inset 0px 1px 0px #DF5553, 0px 2px 0px 0px #C64442, 2px 10px 5px #363747;
+	-o-box-shadow: inset 0px 1px 0px #DF5553, 0px 2px 0px 0px #C64442, 2px 10px 5px #363747;
+	box-shadow: inset 0px 1px 0px #DF5553, 0px 2px 0px 0px #C64442, 2px 10px 5px #363747;
+}
+
+.span2 i::before {
+	background: url(../images/contact.png) no-repeat #DB4D4B 14px 14px;
+	content:"";
+	float:right;
+	padding: 46px 26px;
+	position:absolute;
+	display:block;
+	padding-top:8px;
+	top:0px;
+	right:-36px;
+	font-size:16px;
+	font-weight:bold;
+	color:#8fd1ea;
+	text-shadow:1px 1px 0px #07526e;
+	border-right:solid 1px #C64442;
+	border-radius:0 5px 5px 0;
+	-moz-border-radius: 0 5px 5px 0;
+	-o-border-radius: 0 5px 5px 0;
+	-webkit-border-radius:0 5px 5px 0;
+	-webkit-box-shadow: inset 0px 1px 0px #DF5553, 0px 5px 0px 0px #C64442, 2px 10px 5px #363747;
+	-moz-box-shadow: inset 0px 1px 0px #DF5553, 0px 5px 0px 0px #C64442, 2px 10px 5px #363747;
+	-o-box-shadow: inset 0px 1px 0px #DF5553, 0px 5px 0px 0px #C64442, 2px 10px 5px #363747;
+	box-shadow: inset 0px 1px 0px #DF5553, 0px 5px 0px 0px #C64442, 2px 10px 5px #363747;
+}
+.span2 i:active::before {
+	top:-3px;
+	-webkit-box-shadow: inset 0px 1px 0px #DF5553, 0px 5px 0px 0px #C64442, 2px 10px 5px #363747;
+	-moz-box-shadow: inset 0px 1px 0px #DF5553, 0px 5px 0px 0px #C64442, 2px 10px 5px #363747;
+	-o-box-shadow: inset 0px 1px 0px #DF5553, 0px 5px 0px 0px #C64442, 2px 10px 5px #363747;
+	box-shadow: inset 0px 1px 0px #DF5553, 0px 5px 0px 0px #C64442, 2px 10px 5px #363747;
+}
+.span3 {
+	 width: 41%;
+	  float:right;
+	  margin-top: 15%;
+}
+.span3 i {
+	position:relative;
+	border-left:solid 1px #E7577A;
+	font-size: 1.1em;
+	color: #fff;
+	background:#E7577A;
+	padding: 15px 76px;
+	border-radius: 5px 0 0 5px;
+	-moz-border-radius: 5px 0 0 5px;
+	-o-border-radius: 5px 0 0 5px;
+	-webkit-border-radius: 5px 0 0 5px;
+	-webkit-box-shadow: inset 0px 1px 0px #E7577A, 0px 5px 0px 0px #CF3D60, 2px 10px 5px #363747;
+	-moz-box-shadow: inset 0px 1px 0px #E7577A, 0px 5px 0px 0px #CF3D60, 2px 10px 5px #363747;
+	-o-box-shadow: inset 0px 1px 0px #E7577A, 0px 5px 0px 0px #CF3D60, 2px 10px 5px #363747;
+	box-shadow: inset 0px 1px 0px #E7577A, 0px 5px 0px 0px #CF3D60, 2px 10px 5px #363747;
+}
+.span3 i:active {
+	top:3px;
+	-webkit-box-shadow: inset 0px 1px 0px #E7577A, 0px 2px 0px 0px #CF3D60, 2px 10px 5px #363747;
+	-moz-box-shadow: inset 0px 1px 0px #E7577A, 0px 2px 0px 0px #CF3D60, 2px 10px 5px #363747;
+	-o-box-shadow: inset 0px 1px 0px #E7577A, 0px 2px 0px 0px #CF3D60, 2px 10px 5px #363747;
+	box-shadow: inset 0px 1px 0px #E7577A, 0px 2px 0px 0px #CF3D60, 2px 10px 5px #363747;
+}
+
+.span3 i::before {
+	background: url(../images/contact.png) no-repeat #DF4C70 14px 17px;
+	content:"";
+	float:right;
+	padding: 46px 26px;
+	position:absolute;
+	display:block;
+	padding-top:8px;
+	top:0px;
+	right:-36px;
+	font-size:16px;
+	font-weight:bold;
+	color:#8fd1ea;
+	text-shadow:1px 1px 0px #07526e;
+	border-right:solid 1px #C64442;
+	border-radius:0 5px 5px 0;
+	-moz-border-radius: 0 5px 5px 0;
+	-o-border-radius: 0 5px 5px 0;
+	-webkit-border-radius:0 5px 5px 0;
+	-webkit-box-shadow: inset 0px 1px 0px #E7577A, 0px 5px 0px 0px #CF3D60, 2px 10px 5px #363747;
+	-moz-box-shadow: inset 0px 1px 0px #E7577A, 0px 5px 0px 0px #CF3D60, 2px 10px 5px #363747;
+	-o-box-shadow: inset 0px 1px 0px #E7577A, 0px 5px 0px 0px #CF3D60, 2px 10px 5px #363747;
+	box-shadow: inset 0px 1px 0px #E7577A, 0px 5px 0px 0px #CF3D60, 2px 10px 5px #363747;
+}
+.span3 i:active::before {
+	top:-3px;
+	-webkit-box-shadow: inset 0px 1px 0px #E7577A, 0px 5px 0px 0px #CF3D60, 2px 10px 5px #363747;
+	-moz-box-shadow: inset 0px 1px 0px #E7577A, 0px 5px 0px 0px #CF3D60, 2px 10px 5px #363747;
+	-o-box-shadow: inset 0px 1px 0px #E7577A, 0px 5px 0px 0px #CF3D60, 2px 10px 5px #363747;
+	box-shadow: inset 0px 1px 0px #E7577A, 0px 5px 0px 0px #CF3D60, 2px 10px 5px #363747;
+}
+
+@media only screen and (max-width: 1440px){
+	.buttons {
+		width: 60%;
+	}
+}
